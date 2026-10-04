@@ -1,0 +1,24 @@
+# Ignore python cache and virtual environments
+__pycache__/
+.venv/
+venv/
+*.pyc
+
+# Ignore image datasets, images, and archives
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.zip
+*.tar.gz
+data/
+dataset/
+datasets/
+
+# Ignore heavy model weight files
+*.h5
+*.pth
+*.pt
+*.onnx
+*.pkl
+artifacts/ 
